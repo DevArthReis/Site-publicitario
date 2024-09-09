@@ -19,6 +19,9 @@ html, body{
     --dark-bllue: #12556F;
     --white: #FFFF;
     --black: #000;
+    --purple: #a957a8;
+    --roxo: #9966cc ;
+
 }
 body{
 color: var(--black);
@@ -48,10 +51,11 @@ header{
 .navigation ul{
     display: flex;
     align-items: center;
+    margin-left: 190px;
     gap: 7rem;
 }
 .navigation ul li a{
-    color: var(--dark-bllue);
+    color: var(--purple);
     font-size: 25px;
     font-weight: 500;
 }
@@ -112,7 +116,7 @@ header{
 
 nav ul a::after{
     content: "";
-    background-color: var(--orange);
+    background-color: var(--roxo);
     height: 3px;
     width: 0%;
     display: block;
@@ -183,14 +187,14 @@ p{
 }
 .btn{
     padding: 15px 25px;
-    background: var(--orange);
+    background: var(--roxo);
     color: var(--white);
     border-radius: 7px;
     font-weight: 700;
     transition: all 0.5s;
 }
 .btn:hover{
-    background: #db8b00;
+    background: purple;
 }
 /* Primeira página final */
 
@@ -209,7 +213,7 @@ p{
 .two-text .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: var(--black);
+    color: var(--roxo);
     line-height: 4rem;
 
 }
@@ -219,12 +223,19 @@ p{
 .two-img img{
     width: 100%;
 }
+.two-img-2 img{
+    width: 100%;
+    
+}
+.two-text-2 .two-text-2{
+    text-align: center;
+}
 /* Two final */
 
 /* Three Começo */
 .three-text .text-h1{
 font-size: 4rem;
-color: var(--black);
+color: var(--roxo);
 justify-content: center;
 display: flex;
 margin-bottom: 1rem;
@@ -247,14 +258,14 @@ margin-bottom: 1rem;
     margin: 20px;
 }
 .three .cards-item:hover{
-    background-color: #4f9cf9;
+    background-color: var(--purple);
     transition: 0.3s;
 }
 .three .cards-item:hover p{
     color: var(--white);
 }
 .three .cards-item img{
-    background-color: #4f9cf9;
+    background-color: var(--roxo);
     border-radius: 14px;
     width: 70px;
     padding: 9px;
@@ -272,7 +283,7 @@ margin-bottom: 1rem;
 /* Clientes começo */
 .clientes .text-h1{
     font-size: 4rem;
-    color: var(--black);
+    color: var(--roxo);
     justify-content: center;
     display: flex;
     margin-bottom: 1rem;
@@ -281,6 +292,12 @@ margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+}
+.clientes .Clientes-new img{
+    margin-left: 70px;
+    padding-left: 100px; 
+    width: 500px;
+    border-radius: 30px;  
 }
 
 @keyframes slide {
@@ -355,7 +372,7 @@ margin-bottom: 1rem;
 .sobre-text .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: var(--black);
+    color: var(--purple);
     line-height: 4rem;
 }
 
@@ -399,7 +416,7 @@ margin-bottom: 1rem;
 /* Footer Começo */
 
 .footer{
-    background-color: var(--dark-bllue);
+    background-color: var(--roxo);
     text-align: center;
 }
 .footer i{
